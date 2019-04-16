@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1757972173}
+  selectedFlowchart: {fileID: 1027052633}
 --- !u!4 &340605767
 Transform:
   m_ObjectHideFlags: 1
@@ -4027,8 +4027,9 @@ MonoBehaviour:
   nameColor: {r: 0.990566, g: 0.97654855, b: 0.97654855, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 05ccd53483a554ca9b31f685fa76154a, type: 3}
-  - {fileID: 21300000, guid: c784f0adc2ce544be915fc26a2b4b510, type: 3}
+  - {fileID: 21300000, guid: a649c7406597a6f4588ae439956bc4c4, type: 3}
+  - {fileID: 21300000, guid: 22f57c6840b010d49ab772faf76b71d9, type: 3}
+  - {fileID: 21300000, guid: 6ec4cff04813fe948a12ccf0c1cee259, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 743033009}
   description: Main Character
@@ -10796,7 +10797,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1027052632}
   selectedCommands:
-  - {fileID: 1027052641}
+  - {fileID: 1027052639}
   variables:
   - {fileID: 1027052644}
   - {fileID: 1027052654}
@@ -10855,7 +10856,7 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &1027052636
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10893,7 +10894,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 266
-    y: 48
+    y: 50.061855
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10950,7 +10951,7 @@ MonoBehaviour:
   storyText: Blobble blooble blooble....
   description: 
   character: {fileID: 1472794127}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 58b2cd78bfce4714da967a258961989f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -10983,7 +10984,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1027052641
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11478,7 +11479,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 44.17517
-    y: 67.44327
+    y: 64.35048
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -18746,7 +18747,11 @@ MonoBehaviour:
   nameText: Blobby
   nameColor: {r: 0.17080627, g: 0.9339623, b: 0.066082224, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: d3a084e6c257fdf48ae463817d16cd5f, type: 3}
+  - {fileID: 21300000, guid: 7e23ae4fcc43d644dabba99113b32283, type: 3}
+  - {fileID: 21300000, guid: 5a984f2bbec756847b1d3d167596cf11, type: 3}
+  - {fileID: 21300000, guid: a14e0ed0e260f9b40bf17baa0f9efb77, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 955901621}
   description: Side Character
