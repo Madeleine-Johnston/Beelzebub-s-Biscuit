@@ -576,8 +576,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86478080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 597.659, y: 228.72, z: 0}
-  m_LocalScale: {x: 0.153081, y: 0.15111, z: 1}
+  m_LocalPosition: {x: 597.62, y: 228.8, z: 0}
+  m_LocalScale: {x: 0.061079316, y: 0.056817356, z: 1}
   m_Children: []
   m_Father: {fileID: 889721242}
   m_RootOrder: 3
@@ -634,7 +634,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f32c3b7fc28d281408bf211f7de4495e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2954,8 +2954,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314882866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 608.55, y: 227.73, z: 0}
-  m_LocalScale: {x: 0.219, y: 0.20699999, z: 1}
+  m_LocalPosition: {x: 608.72, y: 227.95, z: 0}
+  m_LocalScale: {x: 0.16468799, y: 0.17346598, z: 1}
   m_Children: []
   m_Father: {fileID: 1700245962}
   m_RootOrder: 5
@@ -3012,7 +3012,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f32c3b7fc28d281408bf211f7de4495e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3386,6 +3386,7 @@ GameObject:
   - component: {fileID: 330303298}
   - component: {fileID: 330303297}
   - component: {fileID: 330303296}
+  - component: {fileID: 330303315}
   m_Layer: 12
   m_Name: Scene1BFlowchart
   m_TagString: Untagged
@@ -3460,8 +3461,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 330303284}
-  selectedCommands: []
+  - {fileID: 330303303}
+  selectedCommands:
+  - {fileID: 330303302}
   variables:
   - {fileID: 330303297}
   description: 
@@ -3658,6 +3660,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 330303290}
   commandList:
+  - {fileID: 330303315}
   - {fileID: 330303292}
   - {fileID: 330303291}
 --- !u!114 &330303294
@@ -3931,7 +3934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 4b1a7bf26a10b3846b95f18e1b12b7c3, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &330303303
@@ -4267,7 +4270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 4b1a7bf26a10b3846b95f18e1b12b7c3, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &330303314
@@ -4284,8 +4287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 163.0906
-    y: 45.339054
+    x: 168.35378
+    y: 51.917995
     width: 121.9298
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4300,6 +4303,23 @@ MonoBehaviour:
   - {fileID: 330303311}
   - {fileID: 330303310}
   - {fileID: 330303309}
+--- !u!114 &330303315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330303282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 35
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &340605765
 GameObject:
   m_ObjectHideFlags: 1
@@ -4737,7 +4757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403615727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 601.1, y: 227.55, z: 0}
+  m_LocalPosition: {x: 601.03, y: 227.7, z: 0}
   m_LocalScale: {x: 0.219, y: 0.207, z: 1}
   m_Children: []
   m_Father: {fileID: 726373270}
@@ -7217,8 +7237,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644287201}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 610.06, y: 227.66, z: 0}
-  m_LocalScale: {x: 0.219, y: 0.20699999, z: 1}
+  m_LocalPosition: {x: 610.01, y: 227.99, z: 0}
+  m_LocalScale: {x: 0.17301, y: 0.14386499, z: 1}
   m_Children: []
   m_Father: {fileID: 1700245962}
   m_RootOrder: 4
@@ -7275,7 +7295,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ec4cff04813fe948a12ccf0c1cee259, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13426,8 +13446,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756393388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 601.1, y: 227.55, z: 0}
-  m_LocalScale: {x: 0.219, y: 0.207, z: 1}
+  m_LocalPosition: {x: 601, y: 227.74, z: 0}
+  m_LocalScale: {x: 0.164031, y: 0.133101, z: 1}
   m_Children: []
   m_Father: {fileID: 726373270}
   m_RootOrder: 4
@@ -13484,7 +13504,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ec4cff04813fe948a12ccf0c1cee259, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14561,8 +14581,8 @@ GameObject:
   - component: {fileID: 921160556}
   - component: {fileID: 921160555}
   - component: {fileID: 921160554}
-  - component: {fileID: 921160558}
   - component: {fileID: 921160557}
+  - component: {fileID: 921160558}
   m_Layer: 19
   m_Name: Scene4Flowchart
   m_TagString: Untagged
@@ -14640,7 +14660,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 921160552}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 921160558}
   variables: []
   description: 
   stepPause: 0
@@ -14724,7 +14745,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &921160557
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14749,14 +14770,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 921160550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 4
+  itemId: 6
   indentLevel: 0
-  soundClip: {fileID: 0}
-  volume: 1
-  waitUntilFinished: 0
+  musicClip: {fileID: 8300000, guid: c9dd4e501863ee24dbae85e5e6970329, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &930928834
 GameObject:
   m_ObjectHideFlags: 0
@@ -15863,8 +15885,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994224276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 607.06, y: 227.57, z: 0}
-  m_LocalScale: {x: 0.219, y: 0.20699999, z: 1}
+  m_LocalPosition: {x: 606.63, y: 227.68, z: 0}
+  m_LocalScale: {x: 0.081468, y: 0.08052299, z: 1}
   m_Children: []
   m_Father: {fileID: 1029145342}
   m_RootOrder: 0
@@ -15921,7 +15943,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3a084e6c257fdf48ae463817d16cd5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16062,6 +16084,7 @@ GameObject:
   - component: {fileID: 1005897784}
   - component: {fileID: 1005897783}
   - component: {fileID: 1005897782}
+  - component: {fileID: 1005897789}
   m_Layer: 17
   m_Name: Scene3AFlowchart
   m_TagString: Untagged
@@ -16135,7 +16158,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1005897787}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1005897789}
   variables: []
   description: 
   stepPause: 0
@@ -16319,6 +16343,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1005897786}
   commandList:
+  - {fileID: 1005897789}
   - {fileID: 1005897785}
   - {fileID: 1005897784}
   - {fileID: 1005897783}
@@ -16344,6 +16369,23 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &1005897789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005897778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1013580450
 GameObject:
   m_ObjectHideFlags: 0
@@ -17028,7 +17070,7 @@ MonoBehaviour:
   value: 100
 --- !u!114 &1027052645
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17244,7 +17286,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1027052652
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -18370,8 +18412,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053146039}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 602.51, y: 228.56, z: 0}
-  m_LocalScale: {x: 0.219, y: 0.207, z: 1}
+  m_LocalPosition: {x: 602.47, y: 228.41, z: 0}
+  m_LocalScale: {x: 0.100958996, y: 0.098946, z: 1}
   m_Children: []
   m_Father: {fileID: 726373270}
   m_RootOrder: 3
@@ -18428,7 +18470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72225575074e46645aa29c5817e8aecf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19786,6 +19828,8 @@ GameObject:
   - component: {fileID: 1181032861}
   - component: {fileID: 1181032852}
   - component: {fileID: 1181032845}
+  - component: {fileID: 1181032863}
+  - component: {fileID: 1181032843}
   m_Layer: 23
   m_Name: Scene6Flowchart
   m_TagString: Untagged
@@ -19821,8 +19865,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -69.77719
-    y: 73.73973
+    x: -68.13785
+    y: 77.01842
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -19853,11 +19897,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 428.52054, y: 63.38207}
+  scrollPos: {x: 463.8794, y: 70.41992}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 253
-  zoom: 0.6100004
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -19865,8 +19909,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1181032743}
-  selectedCommands: []
+  - {fileID: 1181032750}
+  selectedCommands:
+  - {fileID: 1181032843}
   variables:
   - {fileID: 1181032842}
   description: 
@@ -20021,7 +20066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 971.4516
     y: 202.99591
-    width: 137.43164
+    width: 141.95395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20030,6 +20075,7 @@ MonoBehaviour:
   description: if health < 0 then lose; health sarts 100 or 130 with armour
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1181032843}
   - {fileID: 1181032749}
   - {fileID: 1181032748}
   - {fileID: 1181032747}
@@ -20602,8 +20648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 642
-    y: 132.90701
+    x: 643.7241
+    y: 134.63115
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -20713,7 +20759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 975.625
     y: 91.25
-    width: 125.40979
+    width: 129.31029
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20722,6 +20768,7 @@ MonoBehaviour:
   description: if turns = >4 then win
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1181032863}
   - {fileID: 1181032754}
   - {fileID: 1181032753}
   - {fileID: 1181032752}
@@ -21242,7 +21289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.726715
     y: 84.05683
-    width: 138.52454
+    width: 143.1034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21334,7 +21381,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.2945
     y: 88.027016
-    width: 124.316895
+    width: 128.16086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21673,7 +21720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: c05250d33e43ca04788384771b988143, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032805
@@ -21729,7 +21776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f0ea46b821087cf49bccf77354d64ee9, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032807
@@ -22992,6 +23039,23 @@ MonoBehaviour:
   scope: 0
   key: Turns
   value: 0
+--- !u!114 &1181032843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181032741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 08ed144a85c2c844ab568517982e0924, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &1181032844
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -23014,7 +23078,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1181032845
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -23143,7 +23207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: c05250d33e43ca04788384771b988143, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032849
@@ -23238,12 +23302,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: c05250d33e43ca04788384771b988143, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -23333,7 +23397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f0ea46b821087cf49bccf77354d64ee9, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032855
@@ -23428,7 +23492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f0ea46b821087cf49bccf77354d64ee9, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032858
@@ -23523,12 +23587,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: f0ea46b821087cf49bccf77354d64ee9, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1181032861
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -23567,7 +23631,7 @@ MonoBehaviour:
   toPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &1181032862
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -23604,6 +23668,23 @@ MonoBehaviour:
   isLocal: 0
   toTransformOLD: {fileID: 0}
   toPositionOLD: {x: 0, y: 0, z: 0}
+--- !u!114 &1181032863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181032741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 08801ac59f70a444f9e2cad8e057f7ce, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1187265393
 GameObject:
   m_ObjectHideFlags: 0
@@ -24463,6 +24544,7 @@ GameObject:
   - component: {fileID: 1318745125}
   - component: {fileID: 1318745124}
   - component: {fileID: 1318745123}
+  - component: {fileID: 1318745142}
   m_Layer: 11
   m_Name: Scene1AFlowchart
   m_TagString: Untagged
@@ -24525,11 +24607,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 277.08984, y: -8.560146}
+  scrollPos: {x: 696.9844, y: 39.240303}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 272
-  zoom: 0.79000014
+  zoom: 0.4900004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -24537,8 +24619,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1318745102}
-  selectedCommands: []
+  - {fileID: 1318745111}
+  selectedCommands:
+  - {fileID: 1318745142}
   variables:
   - {fileID: 1318745122}
   - {fileID: 1318745121}
@@ -24667,7 +24750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 571.9227
     y: 142.15381
-    width: 138.60757
+    width: 135.71422
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24730,7 +24813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.4538
     y: 142.76114
-    width: 176.58226
+    width: 176.53052
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24739,6 +24822,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1318745110}
   commandList:
+  - {fileID: 1318745142}
   - {fileID: 1318745109}
   - {fileID: 1318745106}
 --- !u!114 &1318745112
@@ -25195,7 +25279,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 264.92447
     y: 69.81076
-    width: 130.16876
+    width: 126.190414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25364,7 +25448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 4b1a7bf26a10b3846b95f18e1b12b7c3, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1318745134
@@ -25381,7 +25465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 4b1a7bf26a10b3846b95f18e1b12b7c3, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1318745135
@@ -25454,7 +25538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.34504
     y: 107.4278
-    width: 125.949356
+    width: 130.27203
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25555,7 +25639,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.183
     y: 31.306862
-    width: 120
+    width: 123.46933
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25569,6 +25653,23 @@ MonoBehaviour:
   - {fileID: 1318745131}
   - {fileID: 1318745123}
   - {fileID: 1318745125}
+--- !u!114 &1318745142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318745100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1319983240
 GameObject:
   m_ObjectHideFlags: 0
@@ -25756,8 +25857,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1330028141}
-  selectedCommands:
-  - {fileID: 1330028149}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -25827,7 +25927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 5dcf8feb480ef334c8aa4cd2cdfb2c53, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1330028140
@@ -25861,8 +25961,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 297
-    y: 74
+    x: 298.17648
+    y: 75.17647
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -26039,7 +26139,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1330028149
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -26057,7 +26157,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1330028150
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28453,7 +28553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564100650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 605.58, y: 227.66, z: 0}
+  m_LocalPosition: {x: 604.76, y: 227.99, z: 0}
   m_LocalScale: {x: 0.219, y: 0.20699999, z: 1}
   m_Children: []
   m_Father: {fileID: 1029145342}
@@ -28511,7 +28611,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a649c7406597a6f4588ae439956bc4c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -28842,6 +28942,8 @@ GameObject:
   - component: {fileID: 1719625387}
   - component: {fileID: 1719625388}
   - component: {fileID: 1719625389}
+  - component: {fileID: 1719625384}
+  - component: {fileID: 1719625391}
   m_Layer: 8
   m_Name: MainMenuFlowchart
   m_TagString: Untagged
@@ -28884,6 +28986,20 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &1719625384
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719625381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1719625385}
+  waitForFrames: 1
 --- !u!114 &1719625385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -28898,8 +29014,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 68
-    y: 73
+    x: 74
+    y: 79
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -28907,7 +29023,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1719625384}
   commandList:
   - {fileID: 1719625383}
 --- !u!114 &1719625386
@@ -28998,7 +29114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  soundClip: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 1b18082ef8ac99d45841fdff1cfb2784, type: 3}
   volume: 1
   waitUntilFinished: 0
 --- !u!114 &1719625390
@@ -29027,7 +29143,26 @@ MonoBehaviour:
   eventHandler: {fileID: 1719625387}
   commandList:
   - {fileID: 1719625389}
+  - {fileID: 1719625391}
   - {fileID: 1719625388}
+--- !u!114 &1719625391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719625381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!1 &1756253833
 GameObject:
   m_ObjectHideFlags: 0
@@ -31204,7 +31339,10 @@ MonoBehaviour:
   nameText: 'Beelzebub '
   nameColor: {r: 0.9716981, g: 0.05958529, b: 0.05958529, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 72225575074e46645aa29c5817e8aecf, type: 3}
+  - {fileID: 21300000, guid: f32c3b7fc28d281408bf211f7de4495e, type: 3}
+  - {fileID: 21300000, guid: 84edd27d2f0c1bc4398637eb1389b6af, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 178061043}
   description: 'Devil Character
