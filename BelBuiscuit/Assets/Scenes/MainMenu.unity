@@ -846,8 +846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &111185505
 GameObject:
@@ -971,8 +971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &115857185
 GameObject:
@@ -1176,8 +1176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &156992098
 GameObject:
@@ -2915,8 +2915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &303208810
 GameObject:
@@ -4335,9 +4335,6 @@ GameObject:
   - component: {fileID: 330303317}
   - component: {fileID: 330303316}
   - component: {fileID: 330303288}
-  - component: {fileID: 330303319}
-  - component: {fileID: 330303320}
-  - component: {fileID: 330303315}
   m_Layer: 12
   m_Name: Scene1BFlowchart
   m_TagString: Untagged
@@ -4382,7 +4379,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 330303319}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 330303287}
   - {fileID: 330303296}
@@ -4413,7 +4410,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 330303293}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 330303292}
   variables:
   - {fileID: 330303297}
   description: 
@@ -4612,9 +4610,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 330303290}
   commandList:
-  - {fileID: 330303320}
   - {fileID: 330303292}
-  - {fileID: 330303315}
   - {fileID: 330303291}
 --- !u!114 &330303294
 MonoBehaviour:
@@ -5257,20 +5253,6 @@ MonoBehaviour:
   - {fileID: 330303311}
   - {fileID: 330303310}
   - {fileID: 330303309}
---- !u!114 &330303315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330303282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
 --- !u!114 &330303316
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5352,38 +5334,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &330303319
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330303282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 330303284}
-  waitForFrames: 1
---- !u!114 &330303320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330303282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!1 &340605765
 GameObject:
   m_ObjectHideFlags: 1
@@ -7418,8 +7368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &519420028
 GameObject:
@@ -7731,7 +7681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553393374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.24, y: -0.72, z: 0}
+  m_LocalPosition: {x: 13.24, y: -0.72, z: -1}
   m_LocalScale: {x: 0.19, y: 0.158, z: 1}
   m_Children: []
   m_Father: {fileID: 2079784647}
@@ -8327,8 +8277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &593595842
 GameObject:
@@ -8452,8 +8402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &612963473
 GameObject:
@@ -13702,7 +13652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660898763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: -0.51, z: 3.75}
+  m_LocalPosition: {x: 0.06, y: -0.51, z: -1}
   m_LocalScale: {x: 0.203125, y: 0.18982913, z: 1}
   m_Children: []
   m_Father: {fileID: 560456976}
@@ -17311,8 +17261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &990081278
 GameObject:
@@ -17652,8 +17602,6 @@ GameObject:
   - component: {fileID: 1005897783}
   - component: {fileID: 1005897782}
   - component: {fileID: 1005897790}
-  - component: {fileID: 1005897791}
-  - component: {fileID: 1005897789}
   m_Layer: 17
   m_Name: Scene3AFlowchart
   m_TagString: Untagged
@@ -17728,7 +17676,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1005897787}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1005897785}
   variables: []
   description: 
   stepPause: 0
@@ -17912,10 +17861,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1005897786}
   commandList:
-  - {fileID: 1005897791}
   - {fileID: 1005897785}
   - {fileID: 1005897784}
-  - {fileID: 1005897789}
   - {fileID: 1005897783}
   - {fileID: 1005897782}
 --- !u!114 &1005897788
@@ -17939,20 +17886,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
---- !u!114 &1005897789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005897778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
 --- !u!114 &1005897790
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17980,24 +17913,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1005897791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005897778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!1 &1013580450
 GameObject:
   m_ObjectHideFlags: 0
@@ -18095,7 +18010,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18103,7 +18018,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1013580454
@@ -20682,8 +20597,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1091035940
 GameObject:
@@ -21417,8 +21332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!4 &1154709242
 Transform:
@@ -21685,8 +21600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1166178407
 GameObject:
@@ -26130,8 +26045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1216424148
 GameObject:
@@ -26844,8 +26759,6 @@ GameObject:
   - component: {fileID: 1318745119}
   - component: {fileID: 1318745115}
   - component: {fileID: 1318745112}
-  - component: {fileID: 1318745143}
-  - component: {fileID: 1318745142}
   m_Layer: 11
   m_Name: Scene1AFlowchart
   m_TagString: Untagged
@@ -26921,7 +26834,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1318745111}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1318745109}
   variables:
   - {fileID: 1318745122}
   - {fileID: 1318745121}
@@ -27124,9 +27038,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1318745110}
   commandList:
-  - {fileID: 1318745143}
   - {fileID: 1318745109}
-  - {fileID: 1318745142}
   - {fileID: 1318745106}
 --- !u!114 &1318745112
 MonoBehaviour:
@@ -27957,38 +27869,6 @@ MonoBehaviour:
   - {fileID: 1318745131}
   - {fileID: 1318745123}
   - {fileID: 1318745125}
---- !u!114 &1318745142
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318745100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 41
-  indentLevel: 0
---- !u!114 &1318745143
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318745100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
-  indentLevel: 0
-  musicClip: {fileID: 8300000, guid: b0d70e40ae79b2a4182d16d3c3c50e5a, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
 --- !u!1 &1319983240
 GameObject:
   m_ObjectHideFlags: 0
@@ -28952,7 +28832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
+  viewSize: 1.5
   primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1379778681
@@ -32232,6 +32112,7 @@ GameObject:
   - component: {fileID: 1719625388}
   - component: {fileID: 1719625389}
   - component: {fileID: 1719625391}
+  - component: {fileID: 1719625384}
   m_Layer: 8
   m_Name: MainMenuFlowchart
   m_TagString: Untagged
@@ -32274,6 +32155,20 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &1719625384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719625381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1719625385}
+  waitForFrames: 1
 --- !u!114 &1719625385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -32297,7 +32192,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1719625384}
   commandList:
   - {fileID: 1719625383}
 --- !u!114 &1719625386
@@ -33358,8 +33253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1836246917
 GameObject:
@@ -33830,8 +33725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1886519008
 GameObject:
@@ -34651,7 +34546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063961548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.17, y: -0.75, z: 0}
+  m_LocalPosition: {x: 14.17, y: -0.75, z: -1}
   m_LocalScale: {x: 0.0893, y: 0.07647201, z: 1}
   m_Children: []
   m_Father: {fileID: 2079784647}
@@ -35106,8 +35001,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 1
-  primaryAspectRatio: {x: 4, y: 3}
+  viewSize: 1.5
+  primaryAspectRatio: {x: 2, y: 1}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &2146503802
 GameObject:
